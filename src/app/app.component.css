@@ -1,0 +1,124 @@
+body {
+  
+  margin: 0; /* Margen para dar espacio al borde */
+  padding: 0; /* Relleno para dar espacio al contenido dentro del borde */
+background-color: #fbfbef;
+}
+app-root {
+  flex: 1;
+}
+
+footer{
+  background-color: #dce1e1;
+  padding: 10px;
+  position: 0;
+  bottom: 0;
+  width: auto;
+  text-align: center;
+  font-size: medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.content {
+  box-sizing: border-box;
+  background-color: #ffffff; /* Color de fondo para el contenido */
+  padding: 70px;
+  margin: 0% 10% 1% 10%;
+  border-radius: 10px;
+ box-sizing: border-box;
+ overflow: hidden; 
+}
+  
+  #logo img {
+     margin: 30px auto;
+    width: 100px; 
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .title,h2,p,h3,h4{
+    text-align: center;
+    margin-bottom: 20px;
+   
+  }
+  .title h1 {
+   
+    margin-bottom: 5px; 
+  }
+  .title p{
+    font-size: 20px;
+  }
+  
+
+
+
+
+  #Caja_text{
+
+   border-radius: 10px;
+    background-color: rgb(145, 223, 235);
+    margin: 30px 200px 10px 200px; /* Ajusta según tus necesidades */
+    padding: 50px;
+}
+
+#info {
+  padding: 10px;
+  margin: 0 10% 0 10%; /* Ajusta según tus necesidades, he reducido el margen inferior a 0 */
+  background-color: #ffffff);
+  border-radius: 10px;
+  box-sizing: border-box;
+     
+  #info h1,
+  #info p {
+    margin-bottom: 0px;
+  }
+
+  #iconos {
+    display: flex;
+    justify-content: center;  /* Centra en el eje horizontal */
+    align-items: center;      /* Centra en el eje vertical */
+    margin-left: -1cm;      
+  }
+
+  #iconos a {
+    display: inline-block;
+    width: 50px; /* Ancho en píxeles o centímetros según tus necesidades */
+    margin-right: 1cm; /* Espacio entre enlaces en centímetros */
+  }
+  
+  #iconos img {
+    width: 100%; /* Hace que las imágenes ocupen el 100% del ancho del enlace */
+    border-radius: 80%;
+    margin-left: 0.5cm;
+  }
+
+
+
+}
+
+h1,h2,h3,h4{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 25px;
+}
+
+#imgprofile{
+ 
+  width: 30%;
+  border-radius: 80%; /* Hace que la imagen sea completamente redonda */
+  object-fit: cover;
+ 
+ 
+}
+.foto{
+  display: flex;
+  justify-content: center; /* Centra en el eje horizontal */
+  align-items: center; /* Centra en el eje vertical */
+
+}
